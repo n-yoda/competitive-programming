@@ -1,0 +1,22 @@
+[package]
+name = "arc001"
+version = "0.1.0"
+authors = ["Nobuki Yoda <nobuki.y@gmail.com>"]
+include = ["*"]
+
+[[bin]]
+name = "a"
+path = "a-center.rs"
+
+[[bin]]
+name = "b"
+path = "b-remote.rs"
+
+[[bin]]
+name = "c"
+path = "c-puzzle.rs"
+
+[[test]]
+name = "c"
+path = "c-puzzle.rs"
+
